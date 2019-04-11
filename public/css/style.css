@@ -1,0 +1,2153 @@
+/** Changes to bootstrap**/
+body {
+    font-family: "Montserrat",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+}
+.nav > li > a {
+    padding: 12px 28px 15px 0px;
+}
+
+.navbar-brand>img {
+    max-height:20px;
+    display:inline-block;
+    margin-top: -6px;
+}
+ol.breadcrumb {
+    display: inline-block;
+}
+ul.pagination {
+    margin: 5px 0;
+}
+.checkbox, .radio {
+    margin-top: 7px;
+    margin-bottom: 6px;
+}
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+footer.footer {
+    color:#CCCCCC;
+    width: 100%;
+    font-size: 0.8em;
+}
+table tr.bg-primary th a {
+    color: #ffffff;
+}
+select option:disabled {
+    color: #CCCCCC;
+}
+.navbar-default {
+    background-color: #DDDDDD;
+}
+
+/** Ynov Pink **/
+.panel-primary>.panel-heading, .radio-primary input[type="radio"]:checked + label::after, .btn-danger,.checkbox-primary input[type="checkbox"]:checked + label::before, .checkbox-primary input[type="radio"]:checked + label::before {
+    background-color: #EC4363;
+}
+.panel-primary, .panel-primary>.panel-heading, .radio-primary input[type="radio"]:checked + label::before, .btn-danger,.checkbox-primary input[type="checkbox"]:checked + label::before, .checkbox-primary input[type="radio"]:checked + label::before {
+    border-color: #EC4363;
+}
+a {
+    color: #EC4363;
+}
+a:focus {
+    outline-color: #EC4363;
+}
+.form-control:focus, .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus, input[type=file]:focus, input[type=checkbox]:focus, input[type=radio]:focus,.checkbox input[type="checkbox"]:focus + label::before, .checkbox input[type="radio"]:focus + label::before, .radio input[type="radio"]:focus + label::before {
+    outline: none;
+    border-color: #EC4363;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(255,44,93,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(255,44,93,.6);
+}
+
+.form-control-feedback {
+    visibility: hidden;
+}
+
+.offre .form-control-feedback.glyphicon-remove, .offre .form-control-feedback.glyphicon-ok {
+    padding-right: 42.5px;
+}
+
+.has-error .form-control-feedback.glyphicon-remove, .has-success .form-control-feedback.glyphicon-ok {
+    visibility: visible;
+}
+/** Ynov Pink hover **/
+a:focus, a:hover {
+    color: #EC4363;
+}
+.btn-danger.active, .btn-danger.focus, .btn-danger:active, .btn-danger:focus, .btn-danger:hover, .open>.dropdown-toggle.btn-danger {
+    border-color: #EC4363;
+}
+.btn-danger.active, .btn-danger.focus, .btn-danger:active, .btn-danger:focus, .btn-danger:hover, .open>.dropdown-toggle.btn-danger {
+    background-color: #EC4363;
+}
+
+/** Ynov Sea green **/
+.btn-success {
+    background-color: #00AE9C;
+}
+.btn-success {
+    border-color: #00AE9C;
+}
+
+/** Ynov Sea green hover **/
+.btn-success.active, .btn-success.focus, .btn-success:active, .btn-success:focus, .btn-success:hover, .open>.dropdown-toggle.btn-success {
+    background-color: #009568;
+}
+.btn-success.active, .btn-success.focus, .btn-success:active, .btn-success:focus, .btn-success:hover, .open>.dropdown-toggle.btn-success {
+    border-color: #009568;
+}
+
+/** Ynov Sea green light **/
+.bg-success, .table>tbody>tr.success>td, .table>tbody>tr.success>th, .table>tbody>tr>td.success, .table>tbody>tr>th.success, .table>tfoot>tr.success>td, .table>tfoot>tr.success>th, .table>tfoot>tr>td.success, .table>tfoot>tr>th.success, .table>thead>tr.success>td, .table>thead>tr.success>th, .table>thead>tr>td.success, .table>thead>tr>th.success {
+    background-color: #E0FFFF;
+}
+
+/** New classes **/
+.delete-on-click:hover, .delete-on-click:active {
+    background-color:#CCCCCC !important;
+    text-decoration: line-through !important;
+}
+.authz-list .label {
+    font-weight: normal;
+    margin-left: 5px;
+}
+.add_authz {
+    margin-top: 15px;
+}
+.add_authz .form-group {
+    margin-bottom: 5px;
+}
+.topbutton_form {
+    max-width: 300px;
+}
+.topbuttons>div, .topbuttons>form {
+    display:inline-block;
+    vertical-align:top;
+    margin-left: 10px;
+}
+.form-control[readonly], .form-control[disabled] {
+    background-color: #DDDDDD;
+    cursor: not-allowed;
+}
+.top-buffer { margin-top:20px; }
+
+/** Change awesome-bootstrap-checkbox to work with glyphicons **/
+.checkbox input[type=checkbox]:checked + label:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e013";
+}
+.checkbox label:after {
+    padding-left: 4px;
+    padding-top: 2px;
+    font-size: 9px;
+}
+
+.navbar-collapse.collapse ul.nav li p.navbar-text, .navbar-collapse.collapse ul.nav li p.navbar-btn {
+    text-align: center;
+}
+/** Header **/
+
+.header_img{
+    height: 235px;
+    overflow: hidden;
+    position: relative;
+    background: url('../img/header_01.jpg') no-repeat center center;
+}
+
+.title{
+    font-family: "Montserrat";
+    padding-left: 200px;
+    font-size: 28px;
+}
+
+/** Titre header **/
+.header_img {
+    margin-bottom:20px;
+}
+
+.header_img .title-contentlong{
+    height: 300px;
+    margin-top: 100px;
+}
+
+.header_img .title-content{
+    height: 150px;
+    padding-top: 10px;
+}
+
+.post_job {
+    float:left;
+    background:#EC4363;
+    font-family: "Montserrat";
+    font-size:13px;
+    color:#fff;
+    margin:0;
+    border-color:#EC4363;
+    padding: 7px 12px;
+}
+
+.post_job:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #e6e6e6;
+}
+
+.header_img .slide-detail {
+    position: absolute;
+}
+.header_img .slide-deco{
+    width: 53px;
+    height: 53px;
+    background-color: #EC4363;
+    position: absolute;
+    top: 15px;
+    left: -5px;
+}
+
+.header_img .slide-title{
+    position: relative;
+    display: block;
+    background-color: #fff;
+    color: #383d41;
+    padding: 15px 25px 10px 25px;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 21px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.header_img .slide-core{
+    background-color: #383d41;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.header_img h1{
+    font-family: "Montserrat";
+    font-size: 21px;
+}
+
+.header_img h2{
+    font-size: 15px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: inherit;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+/** Footer **/
+
+.bloc_grey_footer{
+    background-color: #333b3e;
+    padding: 20px 20px 20px 20px;
+}
+
+.title_newsletter{
+    font-family: "Montserrat";
+    color: #fff;
+    font-size: 20px;
+    border-bottom: 1px solid #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px
+}
+
+.title_newsletter strong{
+    font-family: "Montserrat";
+}
+
+.bloc_right{
+}
+
+footer input {
+    background-color: #333b3e;
+    border: 1px solid #fff;
+    margin-top: 10px;
+    color: #fff;
+    padding: 5px 0 5px 10px;
+    font-family: "Montserrat";
+    margin: 0;
+    height: 44px;
+}
+
+.btn_news{
+    background-color: #00AE9C;
+    color: #fff;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    height: 44px;
+}
+
+.title_follow{
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #fff;
+    font-size: 20px;
+    border-bottom: 1px solid #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.icon{
+    margin-right: 5px;
+}
+
+/** Footer list **/
+
+.down_footer{
+    padding-top: 15px;
+}
+.down_footer  li{
+    display: inline-block;
+}
+
+.list_footer{
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #333b3e;
+    text-transform: uppercase;
+    margin-right: 15px;
+    vertical-align: -15px;
+}
+
+/** Return home button **/
+.return span{
+    font-size: 18px;
+    margin-right: 10px;
+    vertical-align: -2px;
+}
+
+.return{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.return a{
+    color: #333b3e;
+    text-decoration: none;
+}
+
+/** PopIn **/
+.popin {
+    position: absolute;
+    z-index: 10;
+    background:#fff;
+    left: 0;
+    right: 0;
+    margin-top: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    -moz-box-shadow: 1px 1px 5px 1px #656565;
+    -webkit-box-shadow: 1px 1px 5px 1px #656565;
+    -o-box-shadow: 1px 1px 5px 1px #656565;
+    box-shadow: 1px 1px 5px 1px #656565;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=5);
+}
+
+.popin .title_annonce h3 {
+    margin-top:50px;
+}
+
+.close_popin {
+    position:relative;
+    float:right;
+    margin-right: 30px;
+}
+.close_popin button {
+    position:absolute;
+    top:15px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    border-radius: 15px;
+    z-index: 10;
+    border-color: transparent;
+    background-color:#EC4363;
+    color:#fff;
+}
+
+.close_popin button:hover {
+    color: #333;
+    background-color: #e6e6e6;
+}
+
+/** Map **/
+
+.map {
+    margin-top: 30px;
+    height:300px;
+}
+
+.controls {
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#pac-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 250px;
+}
+
+#pac-input:focus {
+    border-color: #4d90fe;
+}
+
+.pac-container {
+    font-family: Roboto;
+}
+
+
+/** Selectors **/
+
+#type-selector {
+    color: #fff;
+    background-color: #4d90fe;
+    padding: 5px 11px 0px 11px;
+}
+
+#type-selector label {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+/** Social **/
+
+.fb-share-button span {
+    vertical-align: inherit !important;
+}
+
+.social {
+    margin: 10px 10px -10px 10px;
+}
+
+/** Navbar **/
+
+.navbar .ynov_logo a {
+    padding-bottom: 23px;
+    position: relative;
+    top: 5px;
+}
+
+.nav{
+    padding-left: 0;
+}
+
+.navbar-default{
+    background-color: #fff;
+    border-color: #fff;
+    border: none;
+    border-bottom: 1px solid #f6f6f6;
+    border-radius: 0px;
+    margin: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow:    none;
+    box-shadow:         none;
+}
+
+.link-nav{
+    font-family: "Montserrat";
+    color: #4d5459;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.navbar-default .navbar-nav>li>a.wpmenu {
+    color: #4d5459;
+}
+
+.navbar-default .navbar-nav>li>a.wpmenu:hover,
+.sub-menu a:hover{
+    color: #EC4363;
+    -webkit-transition: color 200ms linear;
+    -moz-transition: color 200ms linear;
+    -o-transition: color 200ms linear;
+    -ms-transition: color 200ms linear;
+    transition: color 200ms linear;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-brand {
+    visibility: hidden;
+}
+.sub-menu {
+    position: absolute;
+    display: none;
+    top: 40px;
+    border-top: 5px solid #EC4363;
+    padding-top: 5px;
+    text-align: center;
+    min-width: 140px;
+    background: #ffffff url('https://www.ynov.com/wp-content/themes/lch/css/../img/menu-arrow.jpg') top center no-repeat;
+    z-index: 10;
+    padding:0;
+}
+.sub-menu li {
+    display: block;
+    margin: 10px 0 0 0;
+    border-bottom: 1px solid #999;
+    padding: 0 10px 10px 10px;
+}
+.sub-menu a {
+    display: block;
+    text-decoration: none;
+    color: #4d5459;
+}
+
+
+@media screen and(min-width: 1340px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+.header_image {
+    height:235px;
+    margin-bottom:20px;
+}
+
+.navbar-brand {
+    display:none;
+}
+
+@media (max-width: 992px) {
+    .navbar-brand {
+        display:block;
+    }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+
+    .navbar-brand {
+        visibility: visible;
+    }
+
+    .ynov_logo {
+        display:none !important;
+    }
+}
+
+/** Headings **/
+
+.heading {
+    position:relative;
+}
+
+.heading h1 {
+    font-family: "Montserrat";
+    background:#fff;
+    z-index: 10;
+    padding: 2px 10px;
+    font-size: 22px;
+}
+
+.heading p {
+    background:#333b3e;
+    padding:5px 15px;
+    color:#fff;
+    font-size: 16px;
+    font-family: "Montserrat";
+}
+
+.heading .decoration {
+    position:absolute;
+    width: 40px;
+    height: 40px;
+    border-top: 5px solid #EC4363;
+    border-left: 5px solid #EC4363;
+    top: -10px;
+    left: -4px;
+    z-index: 1;
+}
+
+.infobloc {
+    position: relative;
+
+}
+
+.infobloc h2 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #333b3e;
+    margin-bottom: 0;
+}
+
+.infobloc p {
+    background:#333b3e;
+    color:#fff;
+    font-family: "Montserrat";
+    padding:5px 15px;
+    font-size: 12px;
+    border-bottom: 4px solid #EC4363;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    border-left: 10px solid #333b3e;
+    bottom:17px;
+    right: 5px;
+}
+
+.entreprise {
+    margin-top:10px;
+}
+
+.contact,
+.entreprise,
+.offre {
+    margin-top:55px;
+}
+
+.jobform .form-control, .input-group-addon, .form-control:focus {
+    border-radius: 0;
+    border:none;
+    box-shadow:none;
+    background:#fff;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+.jobform .form-control {
+    border-bottom: 1px solid #333b3e;
+}
+
+.jobform #select_radius{
+    border-bottom:none;
+    height:32px;
+}
+
+.jobform textarea.form-control {
+    border: 1px solid #333b3e;
+}
+
+.jobform .form-control:focus {
+    outline: none;
+    border-bottom: 1px solid #EC4363;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.jobform textarea.form-control:focus {
+    outline: none;
+    border: 1px solid #EC4363;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.jobform .form-control::-webkit-input-placeholder {
+    font-family: "Montserrat";
+}
+
+.jobform .form-control:-ms-input-placeholder {
+    font-family: "Montserrat";
+}
+
+.jobform .form-control:-moz-placeholder {
+    font-family: "Montserrat";
+}
+
+.jobform .form-control::-moz-placeholder {
+    font-family: "Montserrat";
+}
+
+.jobform select.form-control,
+.jobform p {
+    font-family: "Montserrat";
+}
+
+.jobform button[type="submit"][name="preview"] {
+    background:#EC4363;
+    border:none;
+    color:#fff;
+    font-family: "Montserrat";
+}
+
+.jobform button[type="submit"][name="draft"] {
+    background: #428bca;
+    border:none;
+    color:#fff;
+    font-family: "Montserrat";
+}
+
+.jobform button[type="submit"][name="update"] {
+    background: #EC4363;
+    border:none;
+    color:#fff;
+    font-family: "Montserrat";
+}
+
+textarea {
+    min-height:180px;
+}
+
+@media screen and (max-width:990px) {
+    .arrow-right {
+        display:none;
+    }
+}
+
+/** Search Engine **/
+
+.search_bar {
+    display: inline-block;
+    padding: 10px 0px 27px 0px;
+    border-radius: 4px;
+    background-color: #E5E7E6;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.search_bar > .form-group {
+    position: relative;
+}
+
+.search_bar .form-control {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 11px 10px 10px 0px;
+    height: 40px;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.search_bar .input-group-btn select.form-control {
+    padding: 0px 10px 0px 0px;
+}
+
+.search_bar .form-group .form-control {
+    border-left: none;
+}
+
+.search_action {
+    background: #EC4363;
+    width:100%;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.search_action span {
+    top: 3px;
+}
+
+.radius {
+    position: absolute;
+    right: 7px;
+    bottom: -55px;
+}
+
+.radius .form-control {
+    border: 1px solid gray !important;
+    font-size: 12px !important;
+    padding: 0px !important;
+    border-radius: 0px !important;
+    height: auto !important;
+    margin-left: 4px !important;
+    padding-right: 4px !important;
+}
+
+.radius label {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    color: #6b6c6d;
+    font-weight: 400;
+}
+
+.job_type input[type="checkbox"] {
+    cursor:pointer;
+}
+
+#custom-dropdown .col-xs-6,
+#annonce-positions-dropdown .col-xs-12 {
+    margin-top: 15px;
+}
+
+
+#custom-dropdown,
+#annonce-tags-dropdown,
+#annonce-positions-dropdown
+{
+    min-width: 400px;
+    position:absolute;
+    background: #fff;
+    z-index: 10;
+    border: 1px solid #000;
+    left:0px;
+    padding: 0;
+    top:43px;
+    font-family: "Montserrat";
+    width: 100%;
+    border: none;
+    display:none;
+    border-radius:0;
+    -moz-box-shadow: 2px 2px 10px 2px #ccc;
+    -webkit-box-shadow: 2px 2px 10px 2px #ccc;
+    -o-box-shadow: 2px 2px 10px 2px #ccc;
+    box-shadow: 2px 2px 10px 2px #ccc;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#ccc, Direction=134, Strength=10);
+}
+
+#custom-dropdown .checkbox,
+#annonce-tags-dropdown .checkbox,
+#annonce-positions-dropdown .checkbox {
+    float: left;
+}
+
+.separator {
+    font-family: "Montserrat", sans-serif;
+    margin:10px 15px 0px 15px;
+}
+
+.rythme  {
+    /*padding: 15px;*/
+}
+
+.type label:before,
+.rythme label:before
+{
+    border-radius: 0;
+}
+
+/* Annonce line */
+
+.flexbox-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+
+    align-items: center;
+}
+
+.flexbox-container:hover, .annonce_link_block:focus .flexbox-container {
+    background-color: #F9F9F9;
+    cursor: pointer;
+}
+
+.flexbox-container:hover .voir_job, .annonce_link_block:focus .voir_job {
+    background: #E6E6E6;
+    visibility: visible;
+}
+
+.rythm_heading {
+    margin-top: 15px;
+}
+
+.annonce_link_block{
+    text-decoration: none;
+    border-bottom: 1px solid #E6E6E6;
+    padding: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    color: #333b3e;
+    display: block;
+}
+.annonce_link_block:hover{
+    color: #333b3e;
+    text-decoration: none;
+}
+.annonce_link_block:focus{
+    color: #333b3e;
+    text-decoration: none;
+}
+
+.mise_en_avant_annonce {
+    display: block;
+    height: auto;
+}
+
+.annonce_block{
+    border-left-width: 8px;
+    border-left-style: solid;
+}
+
+.annonce_block span{
+    color: #a7a7a7;
+}
+
+.annonce_block strong{
+    display: block;
+}
+
+.type_job, .intitule_job, .ville_job, .date_job, .voir_job{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.date_job, .ville_job strong {
+    text-transform: uppercase;
+}
+
+.voir_job {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    visibility: hidden;
+    color: #333b3e;
+}
+.voir_job span {
+    color: #333b3e;
+}
+.annonce_line .voir_job{
+    padding: 14px 28px 14px;
+}
+.mise_en_avant_annonce .voir_job{
+    padding: 14px 28px 14px;
+}
+
+
+/* Mettre en avant l'offre */
+
+.mise_en_avant_form label{
+    width: 100%;
+}
+
+.mise_en_avant_annonce .annonce_block {
+    height: 100%;
+    border-left-width: 15px;
+    border-left-style: solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*------ Bloc annonce -------*/
+
+.bloc_annonce{
+    border-left: 2px solid #EC4363;
+    background-color: #f9f9f9;
+    padding: 10px 10px 20px 15px;
+}
+
+.bloc_annonce a{
+    color: #333b3e;
+    text-decoration: none;
+}
+
+.bloc_annonce a.contact_annonce:hover {
+    text-decoration: underline;
+}
+
+/** Edit form **/
+
+.edit_form input {
+    border: 1px solid #fff;
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin: 0;
+    height: 44px;
+}
+
+/*------ Titre_annonce =-------*/
+
+.title_annonce h3{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 34px;
+    text-transform: uppercase;
+    margin: 0;
+    width: auto;
+}
+
+.title_annonce h4{
+    font-family: "Montserrat";
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin: 0;
+}
+
+.left_info{
+    float: left;
+    padding: 0;
+}
+
+.right_info{
+    float: left;
+}
+
+.info_annonce{
+    margin-top: 20px;
+}
+
+.info_annonce span{
+    margin-right: 10px;
+}
+
+.right_remuneration{
+}
+
+/*------ Type de contrat -------*/
+
+.type_annonce{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 25px;
+    padding: 2px 0px 2px 40px;
+    color: #fff;
+    background-color: #EC4363;
+}
+
+.type_annonce h5{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+    float:left;
+}
+
+.type_annonce p{
+    font-family: "Montserrat";
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 14px;
+    float: right;
+    padding-right: 10px;
+    padding-top:2px;
+}
+
+/*------ Text -------*/
+.text_content{
+    margin-top: 30px;
+}
+
+.titre_offre{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-left-width: 2px;
+    border-left-style: solid;
+    height: 40px;
+    padding: 6px 10px;
+    margin-bottom: 10px;
+}
+
+.text {
+    text-align: justify;
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/*------ Button send -------*/
+
+.apply_button {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    padding: 10px 10px 0px 10px;
+    margin: 30px 0px;
+    padding: 6px;
+    width:100%;
+}
+
+.apply_button:hover,
+.jobform button[type="submit"]:hover{
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #e6e6e6;
+}
+
+.signal {
+    margin: 0px 10px 10px 0px;
+}
+/*------ Map -------*/
+
+.map{
+    margin-bottom: 30px;
+}
+
+
+
+.close-types {
+    display: none;
+    border:none;
+    margin-right:10px;
+}
+
+.close-types:hover, .close-types:active:focus, .close-types:active, .close-types:active:hover {
+    background:none;
+    box-shadow:none;
+}
+
+/** Pagination **/
+
+.pagination>li a{
+    margin-bottom:10px;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #EC4363;
+    border-color: #EC4363;
+}
+
+.pagination li span,
+.pagination li a,
+.pagination li span:focus,
+.pagination li a:focus
+{
+    margin-right: 7px;
+    border-radius: 0;
+    padding: 9px 18px;
+    background:#eee;
+    border-color: #eee;
+    color:#333b3e;
+}
+
+.pagination li a:hover{
+    background:#eee;
+    border-color: #eee;
+    text-decoration: underline;
+}
+
+.pagination>li:last-child>a, .pagination>li:last-child>span {
+    border-bottom-right-radius:0;
+    border-top-right-radius:0;
+}
+
+/** Responsive **/
+@media (max-width:427px) {
+    .job_type, .job_type input[name="types"] {
+        max-width: inherit;
+        min-width: inherit;
+    }
+    .tag_type, .tag_type input[name="input_annonce_tags"] {
+        max-width: inherit;
+        min-width: inherit;
+    }
+
+    #custom-dropdown .col-xs-6 {
+        padding-left:20px;
+    }
+
+    .menu{
+        text-align: center;
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    #annonce-tags-dropdown .col-xs-6{
+        padding-left: 20px !important;
+    }
+}
+@media (max-width: 380px) {
+    .radius {
+        left: 12px;
+        right: 148px !important;
+    }
+
+    .search_action {
+        display: block;
+        float: right;
+    }
+
+    #annonce-tags-dropdown .col-xs-6{
+        padding-left: 20px !important;
+    }
+
+}
+@media (max-width: 320px) {
+
+    .post_job {
+        margin-bottom:10px;
+    }
+
+    #annonce-tags-dropdown .col-xs-6{
+        padding-left: 20px !important;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .mise_en_avant_annonce{
+        height: auto;
+    }
+
+    .intitule_job{
+        min-height: 100px;
+    }
+
+    .voir_job, .date_job{
+        display:none;
+    }
+
+    .ville_job{
+        display:inline-flex;
+        margin-left: 0px;
+    }
+
+    .ville_job strong:after{
+        content:',';
+        margin-right: 4px;
+    }
+
+    .form-horizontal .form-group {
+        margin-left:0;
+        margin-right: 0
+    }
+
+    .connexionEntreprise{
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .form-inline .checkbox label, .form-inline .radio label {
+        font-size: 13px;
+    }
+    .form-inline .checkbox label, .form-inline .radio label {
+        padding-left: 5px;
+    }
+    .connexionEntreprise{
+        margin-top: 150px;
+    }
+
+    #annonce-tags-dropdown .col-xs-6{
+        padding-left: 20px !important;
+    }
+}
+
+/* Small devices */
+@media (max-width: 768px) {
+    .flexbox-container {
+        display: block;
+    }
+
+    .popin {
+        margin: 390px 15px 0 15px;
+    }
+
+    .post_job {
+        float:none;
+    }
+
+    .radius {
+        bottom:-90px;
+    }
+
+    #custom-dropdown .rythm_heading {
+        margin-top:0;
+        margin: 10px 0;
+    }
+
+    #annonce-tags-dropdown .col-xs-6{
+        padding-left: 30px !important;
+    }
+
+    #custom-dropdown .col-xs-6{
+        margin-top: 5px !important;
+        padding-left: 30px !important;
+    }
+
+    .categorie_metier .col-xs-12{
+        margin-top: 0px !important;
+        padding-left: 20px !important;
+    }
+}
+
+
+/** Static pages **/
+
+.legals {
+    font-family: "Montserrat";
+}
+
+.help .row {
+    padding: 0 100px;
+}
+
+.help .row {
+    border-left:8px solid #EC4363;
+}
+
+.help a.btn {
+    float:none;
+}
+
+/** Colors **/
+.checkbox input[type=checkbox]:checked + label:after {
+    content:none;
+}
+.checkbox input[type="checkbox"]:checked + label::before {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+/* CDI */
+.border_type_1 {
+    border-color: #EC4363;
+}
+.bg_type_1 {
+    background-color: #EC4363;
+}
+.color_type_1 {
+    color: #EC4363;
+}
+.checkbox input[type="checkbox"]:checked + label.type_1::before {
+    background-color: #EC4363;
+    border-color: #EC4363;
+}
+
+/* CDD */
+.border_type_2 {
+    border-color: #953052;
+}
+.bg_type_2 {
+    background-color: #953052;
+}
+.color_type_2 {
+    color: #953052;
+}
+.checkbox input[type="checkbox"]:checked + label.type_2::before {
+    background-color: #953052;
+    border-color: #953052;
+}
+
+/* Stage */
+.border_type_3 {
+    border-color: #333B3E;
+}
+.bg_type_3 {
+    background-color: #333B3E;
+}
+.color_type_3 {
+    color: #333B3E;
+}
+.checkbox input[type="checkbox"]:checked + label.type_3::before {
+    background-color: #333B3E;
+    border-color: #333B3E;
+}
+
+/* VIE */
+.border_type_4 {
+    border-color: #008489;
+}
+.bg_type_4 {
+    background-color: #008489;
+}
+.color_type_4 {
+    color: #008489;
+}
+.checkbox input[type="checkbox"]:checked + label.type_4::before {
+    background-color: #008489;
+    border-color: #008489;
+}
+
+/* Contrat Pro. */
+.border_type_5 {
+    border-color: #81D742;
+}
+.bg_type_5 {
+    background-color: #81D742;
+}
+.color_type_5 {
+    color: #81D742;
+}
+.checkbox input[type="checkbox"]:checked + label.type_5::before {
+    background-color: #81D742;
+    border-color: #81D742;
+}
+
+/* Alternance */
+.border_type_6 {
+    border-color: #F5D238;
+}
+.bg_type_6 {
+    background-color: #F5D238;
+}
+.color_type_6 {
+    color: #F5D238;
+}
+.checkbox input[type="checkbox"]:checked + label.type_6::before {
+    background-color: #F5D238;
+    border-color: #F5D238;
+}
+
+/* Job d'été' */
+.border_type_7 {
+    border-color: #A7A7A7;
+}
+.bg_type_7 {
+    background-color: #A7A7A7;
+}
+.color_type_7 {
+    color: #A7A7A7;
+}
+.checkbox input[type="checkbox"]:checked + label.type_7::before {
+    background-color: #A7A7A7;
+    border-color: #A7A7A7;
+}
+
+/* Job étudiant */
+.border_type_8 {
+    border-color: #C9302B;
+}
+.bg_type_8 {
+    background-color: #C9302B;
+}
+.color_type_8 {
+    color: #C9302B;
+}
+.checkbox input[type="checkbox"]:checked + label.type_8::before {
+    background-color: #C9302B;
+    border-color: #C9302B;
+}
+/* Temps plein */
+.checkbox input[type="checkbox"]:checked + label.rythme_1::before,
+    /* Temps partiel */
+.checkbox input[type="checkbox"]:checked + label.rythme_2::before,
+    /* Mi-temps */
+.checkbox input[type="checkbox"]:checked + label.rythme_3::before {
+    background-color: #2CC79B;
+    border-color: #2CC79B;
+}
+.checkbox input[type="checkbox"]:checked + label::before {
+    background-color: #2CC79B ;
+    border-color: #2CC79B ;
+}
+
+.form-control[readonly], .form-control[disabled] {
+    background-color: #fff;
+    cursor:pointer;
+}
+
+/* Proposition annonce similaire */
+.container_proposition_annonce{
+    padding: 0px !important;
+}
+.proposition_annonce_titre{
+    font-family: "Montserrat";
+    font-size: 20px;
+    text-transform: uppercase;
+    border-left-width: 2px;
+    border-left-style: solid;
+    height: 40px;
+    padding: 6px 10px;
+    margin-left: 15px;
+}
+.proposition_annonce {
+    min-height: 200px;
+    border-bottom: 1px solid #E6E6E6;
+    padding: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #333b3e;
+}
+.proposition_annonce > div {
+    min-height: 200px;
+    border-left-width: 8px;
+    border-left-style: solid;
+}
+
+.proposition_annonce > div.cp_color {
+    border-left: 8px solid #81D742;
+}
+
+.proposition_annonce > div.cdd_color {
+    border-left: 8px solid #235379;
+}
+
+.proposition_annonce > div.cdi_color {
+    border-left: 8px solid #EC4363;
+}
+
+.proposition_annonce > div.alt_color {
+    border-left: 8px solid #F5D238;
+}
+
+
+
+.proposition_annonce > div > div span {
+    color: #a7a7a7;
+}
+
+.proposition_annonce > div > div.date_job, .proposition_annonce > div > div.ville_job strong {
+    text-transform: uppercase;
+    display: inline !important;
+}
+
+.proposition_annonce > div > div.ville_job span {
+    margin-right: 0px !important;
+}
+
+.proposition_annonce > div > div.date_job {
+    margin-right: 20px;
+}
+
+.proposition_annonce > div > div strong {
+    display: block;
+    font-weight: 300;
+}
+
+.proposition_annonce > div > div.voir_job {
+    height: 50px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.proposition_annonce > div > div.voir_job a {
+    text-decoration: none;
+    display: inline-block;
+    visibility: hidden;
+}
+
+.proposition_annonce > div > div.voir_job a, .proposition_annonce > div > div.voir_job span {
+    color: #333b3e;
+}
+
+.proposition_annonce > div > div {
+    display: inline !important;
+    padding-top: 20px;
+    padding-bottom: 14px;
+}
+
+.proposition_annonce_voir_job{
+    display: inline-block;
+    padding: 14px 28px 14px;
+    visibility: hidden;
+    color: #333b3e;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.flexbox-container-proposition:hover, .proposition_annonce_block:focus .flexbox-container-proposition {
+    background-color: #F9F9F9;
+    cursor: pointer;
+}
+
+.flexbox-container-proposition:hover .proposition_annonce_voir_job, .proposition_annonce_block:focus .proposition_annonce_voir_job {
+    visibility: visible;
+    background: #E6E6E6;
+}
+
+/* Tag filter */
+.tag_type,
+.tag_type input[name="input_annonce_tags"] {
+}
+
+.tag_type input[type="checkbox"] {
+    cursor:pointer;
+}
+
+/* Tag label */
+.tag-label{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+}
+
+div.tag-link a{
+    text-decoration: none;
+}
+
+div.tag-link {
+    display:inline-block;
+    margin-bottom:10px;
+}
+
+.form-group .checkbox-inline {
+    margin-left:10px;
+    width:135px;
+}
+
+.form-group .checkbox-inline label:before {
+    border-radius: 0;
+}
+
+/* Tags colors */
+.bg_tag_1,
+.checkbox input[type="checkbox"]:checked + label.tag_1::before {
+    background-color:#FF9933;
+    border-color:#FF9933;
+}
+.bg_tag_2,
+.checkbox input[type="checkbox"]:checked + label.tag_2::before {
+    background-color:#CC6699;
+    border-color:#CC6699;
+}
+.bg_tag_3,
+.checkbox input[type="checkbox"]:checked + label.tag_3::before {
+    background-color:#99CC33;
+    border-color:#99CC33;
+}
+.bg_tag_4,
+.checkbox input[type="checkbox"]:checked + label.tag_4::before {
+    background-color:#00CCFF;
+    border-color:#00CCFF;
+}
+.bg_tag_5,
+.checkbox input[type="checkbox"]:checked + label.tag_5::before {
+    background-color:#333399;
+    border-color:#333399;
+}
+.bg_tag_6,
+.checkbox input[type="checkbox"]:checked + label.tag_6::before {
+    background-color:#6699CC;
+    border-color:#6699CC;
+}
+.bg_tag_7,
+.checkbox input[type="checkbox"]:checked + label.tag_7::before {
+    background-color:#99CCCC;
+    border-color:#99CCCC;
+}
+.bg_tag_8,
+.checkbox input[type="checkbox"]:checked + label.tag_8::before {
+    background-color:#ad388c;
+    border-color:#ad388c;
+}
+
+/* Non connecté annonce cachée */
+.not_display_offre{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+}
+/* -------------- Connexion Entreprise ------------------------*/
+
+.contactbloc h2 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #333b3e;
+    margin-bottom: 0;
+}
+
+.contactbloc p {
+    background:#333b3e;
+    color:#fff;
+    font-family: "Montserrat";
+    padding:5px 15px;
+    font-size: 12px;
+    border-bottom: 4px solid #EC4363;
+}
+
+.no-data {
+    text-align: center;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+    color:#333333;
+    font-size:18px;
+}
+
+.tag-container a {
+    color:#ccc;
+}
+
+/* counter element */
+
+.counter_element{
+    display: inline;
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #EC4363;
+    text-decoration: none;
+    border: 1px solid #EC4363;
+
+    font-size: 17px;
+}
+
+.counter_element_first{
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.counter_element_last{
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.counter_text{
+    display: inline;
+    position: relative;
+    float: left;
+    line-height: 1.42857143;
+    color: #EC4363;
+    text-decoration: none;
+
+    font-size: 17px;
+}
+
+.counter_2 {
+    margin: 5px 26px 0px 26px;
+    padding:0;
+}
+/* menu */
+.menu {
+    background-color: #EC4363;
+    color: white;
+    border: none;
+}
+
+.slide-buttons .dropdown-menu {
+    width:100%;
+}
+
+.slide-buttons div a, .slide-buttons div button  {
+    z-index:10;
+}
+
+.counter {
+    padding:0;
+    margin: 0 18%;
+}
+
+#nbrOffre {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    z-index:0;
+}
+
+#nbrOffre .counter_container {
+    display: inline-block;
+    width: 158px;
+}
+
+@media (max-width: 768px) {
+    #nbrOffre {
+        position:relative;
+
+    }
+
+    .counter, .counter_2 {
+        margin-top:0;
+        margin-bottom:0px;
+    }
+
+    .counter_container {
+        margin-top: 10px;
+    }
+
+    .search_bar {
+        margin-top:0px;
+    }
+
+    .post_job_button {
+        margin-bottom:10px;
+    }
+}
+
+/* */
+@media (min-width: 992px) {
+    .table-modal {
+        width: 1300px;
+    }
+}
+
+.fa-equal {
+    font-family: Arial;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.fa-equal:before {
+    content: "=";
+}
+
+#advanced_search {
+    margin-top:5px;
+}
+
+.advanced_search_link {
+    position: absolute;
+    bottom: 4px;
+    right: 14px;
+}
+
+.localization .input-group-btn {
+    width:70px;
+}
+
+.candidature .contenu blockquote {
+    font-size: 15px;
+}
+
+.search_bar div[class*="col-"] {
+    padding-right: 0px;
+    padding-left: 5px;
+}
+
+.search_bar .search_action_container.form-group {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.search_bar .form-group {
+    margin-bottom: 5px;
+}
+
+.search_text {
+    display:none;
+    font-size:15px;
+}
+
+@media (min-width: 768px) {
+    .alert-info .form-group {
+        margin-bottom: 15px;
+    }
+
+    .localization.input-group .input-group-btn {
+        width:70px;
+    }
+}
+
+@media (max-width: 991px) {
+    .search_bar div[class*="col-"] {
+        padding-right: 5px;
+    }
+
+    .search_bar .search_action_container.form-group {
+        position:absolute;
+        bottom:5px;
+        left: 0;
+        right:0;
+        margin: 0 auto;
+    }
+
+    .advanced_search .tag_type {
+        margin-top:5px;
+    }
+
+    .search_bar {
+        padding: 10px 0px 52px 0px;
+    }
+
+    .advanced_search_link {
+        right:18px;
+    }
+
+    .search_text {
+        display:inherit;
+        margin:0;
+        vertical-align: text-top;
+    }
+
+}
+@media (min-width: 768px) {
+    .form-inline .input-group .input-group-addon {
+        width: 1%;
+    }
+}
+
+@media (max-width:768px) {
+    .input-group[class*=col-] {
+        float:left;
+    }
+}
+
+@media (max-width:506px) {
+
+    .search-bar {
+        padding: 10px 0px 52px 0px;
+    }
+
+    .search_bar .search_action_container.form-group {
+        margin-left:10px;
+    }
+
+    .input-group[class*=col-] {
+        float:left;
+    }
+
+    .search_text {
+        display:none;
+    }
+}
+
+.categorie_metier_button, .categorie_metier_button:focus {
+    border:none;
+    box-shadow: none;
+    color:#EC4363;
+    padding-left: 20px;
+    text-transform: none;
+    background:#fff;
+    outline: transparent;
+    font-size: 13px;
+}
+
+.form-horizontal .categorie_metier_button, .form-horizontal .categorie_metier_button:focus {
+    padding-left:0;
+}
+
+.form-horizontal .categorie_metier .checkbox-inline {
+    width:100%;
+}
+
+.metier_counter.badge {
+    margin-right: 20px;
+}
+
+
+/* preference form */
+
+.preference_bloc_input{
+    margin-top: 10px;
+}
+
+.non_precise{
+    color:#EC4363;
+}
+
+/* cookie bar */
+.cookiebar{
+    background: rgba(0, 0, 0, 0.6);
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    margin: 0px;
+    width: 100%;
+    z-index: 10;
+}
+
+/* Liste candidature */
+.liste_candidature {
+    padding: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    color: #333b3e;
+    height: 200px;
+    margin-bottom: 15px;
+}
+.liste_candidature > div {
+    border-left-width: 8px;
+    border-left-style: solid;
+    height: 200px;
+}
+
+/* password help block */
+.help-block {
+    font-family: "Montserrat", sans-serif;
+    color: #737373;
+    font-size: 12px;
+}
+
+.search_contact_entreprise {
+    display: inline-block;
+    padding: 10px 0px 10px 0px;
+    border-radius: 4px;
+    background-color: #E5E7E6;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.search_contact_entreprise > .form-group {
+    position: relative;
+}
+
+.search_contact_entreprise .form-control {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    padding: 14px 10px 10px 0px;
+    height: 40px;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.search_contact_entreprise .input-group-btn select.form-control {
+    padding: 4px 10px 0px 0px;
+}
+
+.search_contact_entreprise .form-group .form-control {
+    border-left: none;
+}
+
+/* Upload Logo entreprise*/
+
+.upload_logo > [type=file] {
+    position: absolute;
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+.upload_logo > input, [type=file] + label {
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    text-align: left;
+    padding: 10px;
+    width: 150px;
+    margin: 0;
+    left: 0;
+}
+.upload_logo > [type=file] + label {
+    text-align: center;
+    left: 7.35em;
+    top: 0.5em;
+    /* Decorative */
+    background: #EC4363;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.upload_logo > [type=file] + label:hover {
+    background: #CCC;
+}
+
+.logo_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo_align_vertical{
+    max-width: 50%;
+}
+
+/* --- Page aide - Sidebar -- */
+.affix-top,.affix{
+    position: static;
+}
+@media (min-width: 979px) {
+    .sidebar_aide.affix-top {
+        position: static;
+    }
+
+    .sidebar_aide.affix {
+        position: fixed;
+        top:10px;
+    }
+
+    .aide_button{
+        padding-left: 0px !important;
+    }
+}
+.type_user_block{
+    color: #00ae9c;
+}
+.type_user_block:hover{
+    color: #00ae9c;
+}
+.margin_block{
+    margin-left: 20px;
+}
+.link{
+    color: #000;
+}
+.link:hover{
+    color: #000;
+}
+/* --- Page aide - Corp de page -- */
+.title_block{
+    color: #EC4363;
+    font-size: 24px;
+    border-bottom: 2px solid #00ae9c;
+    margin-bottom: 20px;
+}
+.sous_partie_title{
+    margin-top: 30px;
+    font-size: 18px;
+    border-bottom: 1px solid #EC4363;
+}
